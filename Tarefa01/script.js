@@ -1,16 +1,13 @@
 function transferir() {
 
-	console.log('jonas')
     var n = document.getElementById('numero').value
 	var m = n
-	console.log(n)
 
 	var res = document.getElementById('res')
 
 	var aux = ''
     
     if(n < 0 || n > 3999){
-		console.log('pedro')
         window.alert('Numero incorreto')
     }
 
@@ -83,7 +80,6 @@ function transferir() {
 			}
         }
     }
-	console.log(aux)
 
 	res.innerHTML = m+' em algarismo romano é: '+ aux
 

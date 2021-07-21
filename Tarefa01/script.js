@@ -7,7 +7,7 @@ function transferir() {
 
 	var aux = ''
     
-    if(n < 0 || n > 3999){
+    if(n < 1 || n > 3999){
         window.alert('Numero incorreto')
     }
 

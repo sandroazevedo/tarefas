@@ -81,7 +81,9 @@ function transferir() {
         }
     }
 
-	res.innerHTML = m+' em algarismo romano é: '+ aux
+	if(m > 0 && m < 4000){
+		res.innerHTML = m+' em algarismo romano é: '+ aux
+	}
 
 
 }
